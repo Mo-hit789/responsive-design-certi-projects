@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!-- background Image -->
+        <!-- <div class="bgImage">
+            <img src="bgImage2.jpg" alt="backgroundImage"> 
+       </div>  -->
+       <!-- title of the page -->
+        <div id="title_div">
+            <h1 id="title">Free codecamp survey form</h1>
+            <p id="description">thank you for taking the time to improve this platform</p>
+
+        </div>
+
+        <!-- form srarted from here -->
+        <div class="form-div">
+            <form id="survey-form">
+            
+                <label for="name" id="name-label">
+                    <p>Name:</p>
+                </label>
+                <input type="text" placeholder="enter your name" id="name" required>
+                <label for="email" id="email-label">
+                    <p>Email:</p>
+                </label>
+                <input type="email" placeholder="enter your email id" id="email" required>
+                <label for="number" id="number-label">
+                    <p>Age:</p>
+                </label>
+                <input type="number" placeholder="enter your age" id="number" min="12" max="50" required>
+
+                <p>which option describes your current role</p>
+                <select name="" id="dropdown" >
+                    <option disabled selected value>select current role</option>
+                    <option value="student">student</option>
+                    <option value="employee">employee</option>
+                    <option value="businessman">businessman</option>
+                    <option value="teacher">teacher</option>
+                </select>
+
+                
+                    <p>Would you recommend freeCodeCamp to a friend?</p> 
+                    <label>
+                    <input type="radio"  value="1" name="recommend_options"> Definitely</input>
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio"  value="2" name="recommend_options"> no</input>
+                    </label>
+                    <br>
+                    <label>
+                    <input type="radio"  value="3" name="recommend_options"> yes</input>
+                    </label>
+                
+                
+           
+
+                <p>What would you like to see improved?</p>
+                <input type="checkbox" value="1"> Front-end Projects</input>
+                <br>
+                <input type="checkbox" value="2"> Back-end Projects</input>
+                <br>
+                <input type="checkbox" value="3"> loading speed</input>
+                <br>
+                <input type="checkbox" value="4"> other</input>
+
+
+                <textarea name="comment" id="comment" cols="30" rows="10">Add your comment here..</textarea>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
