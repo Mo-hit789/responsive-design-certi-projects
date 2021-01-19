@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeOnline</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     
+        <header id="header">
+            <!-- used class instead of id -->
+            <div class="slider"><a href="#header"><i class="fa fa-2x fa-arrow-circle-up"></i></a></div>
+        <div class="productVideo">
+        <video src="productVideo.mp4" id="video" autoplay loop></video>
+    </div> 
+            
+             <nav class="nav-bar" id="nav-bar" >  
+                <img src="images/logo.png" alt="GOOnline logo" id="header-img">
+                <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+                 <ul id="nav-link">
+                     <li class="nav-link" href="#header"><a href="#header">Home</a></li>
+                     <li class="nav-link" href="#service"><a href="#service">service</a></li>
+                     <li class="nav-link" href="#price"><a href="#price">pricing</a></li>
+                     <li class="nav-link" href="#header"><a href="#about">About</a></li>
+                     <li id="btn-nav"><a href="#contact" class="btn-nav" style="color: #0074F4;">contact us</a></li>
+                 </ul>
+            </nav>   
+             <img src="images/heroImage.png" alt="image" id="heroImage">  
+           
+    
+            <div class="hero-text-box">
+                <h1 class="head_title">business is <br> now digital</h1>
+                <h3 class="head_description">We blend insights and strategy to create digital products for <br> forward-thinking organisations.</h3>
+                <a href="#" class="btn btn-full">get started</a>
+                <a href="#" class="btn btn-empty">contact us</a>
+            </div>
+        </header>
+        <!-- service section -->
+        <section class="service-section" id="service">
+            <div class="service_title-box">
+                <h2>our service</h2>
+                <h3>Stop wasting time and money designing and managing a website that doesn’t
+                     get results. Happiness guaranteed!</h3>
+            </div>
+            <div class="service_box-container">
+                <div class="service_box">
+                    <img src="images/web-design.png" alt="website design">
+                    <h2 class="service_box-title">Website <br> Design</h2>
+                    <div class="service_box-description">
+                        <p class="service_box-description">We provide the best website solution which 
+                            matches your business and show your business visibility</p>
+                    </div>
+                   
+                        <a href="#" class="service_box-link">learn more</a>
+                </div>
+
+                <div class="service_box">
+                    <img src="images/paintbrush (1).png" alt="website design">
+                    <h2 class="service_box-title">Graphic <br> Design</h2>
+                    <p class="service_box-description">We provide the best graphic solution which 
+                        matches your business and show your business visibility</p>
+                        <a href="#" class="service_box-link">learn more</a>
+                </div>
+
+                <div class="service_box">
+                    <img src="images/bullhorn.png" alt="website design">
+                    <h2 class="service_box-title">Digital <br> Marketing</h2>
+                    <p class="service_box-description">We provide the best website solution which 
+                        matches your business and show your business visibility </p>
+                        <a href="#" class="service_box-link">learn more</a>
+                </div>
+            </div> 
+        </section> 
+    <!-- price section -->
+        <section class="price-section" id="price">
+            <div class="service_title-box">
+                <h2>Pricing plan</h2>
+                <h3>Stop wasting time and money designing and managing a website that doesn’t
+                     get results. Happiness guaranteed!</h3>
+            </div>
+            <div class="price_box-container">
+                <!-- basic plan box -->
+                <div class="price_box">
+                    <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><circle cx="417" cy="332.659" fill="#d6d3c5" r="80"/><path d="m417 427.659c-52.383 0-95-42.617-95-95s42.617-95 95-95 95.001 42.617 95.001 95-42.618 95-95.001 95zm0-160.001c-35.841 0-65 29.159-65 65s29.159 65 65 65 65-29.158 65-65-29.159-65-65-65z" fill="#4c4a40"/><path d="m416.988 347.659c-3.099 0-6.224-.957-8.907-2.941l-64.325-47.567c-6.661-4.926-8.067-14.318-3.142-20.979 4.927-6.661 14.319-8.066 20.979-3.142l64.325 47.567c6.661 4.926 8.067 14.318 3.142 20.979-2.942 3.979-7.477 6.083-12.072 6.083z" fill="#4c4a40"/><circle cx="95" cy="332.659" fill="#edeade" r="80"/><path d="m95 427.659c-52.383 0-95-42.617-95-95s42.617-95 95-95 95 42.617 95 95-42.616 95-95 95zm0-160.001c-35.841 0-65 29.159-65 65s29.159 65 65 65 65-29.159 65-65-29.158-65-65-65z" fill="#878477"/><path d="m95.864 347.658c-3.839 0-7.677-1.464-10.606-4.394-5.858-5.858-5.858-15.355 0-21.213l93.552-93.551c5.857-5.858 15.355-5.858 21.213 0s5.858 15.355 0 21.213l-93.552 93.551c-2.929 2.93-6.769 4.394-10.607 4.394z" fill="#a19d8d"/><g fill="#787465"><path d="m348.03 196.383c-2.117 0-4.266-.45-6.312-1.401l-51.042-23.722c-7.513-3.491-10.772-12.412-7.281-19.924 3.491-7.513 12.413-10.773 19.924-7.281l51.042 23.722c7.513 3.491 10.772 12.412 7.281 19.924-2.54 5.467-7.956 8.682-13.612 8.682z"/><path d="m90.095 180.052v-6.81c0-16.569 13.431-30 30-30h67.897c16.569 0 30 13.432 30 30v30z"/></g><path d="m444.542 200.176c-.73-15.341-7.913-29.782-19.706-39.62l-87.188-72.733c-5.407-4.51-13.297-4.694-18.944-.225-4.672 3.698-6.546 9.929-5.135 15.718l16.574 67.983-74.145 23.408-43 24.951-20.01 37.329c17.954 21.504 27.013 46.789 27.013 75.671 0 5.63-.389 11.342-1.157 16.975-.782 5.74 1.806 11.558 6.961 14.783 2.459 1.538 5.349 2.243 8.25 2.243h75.534c22.76 0 41.586-17.8 42.862-40.524.182-3.239 1.588-6.29 3.826-8.639l72.41-76.008c10.806-10.914 16.585-25.972 15.855-41.312z" fill="#53b7f5"/><path d="m309.588 366.659c22.76 0 41.586-17.8 42.862-40.524.182-3.239 1.588-6.29 3.826-8.639l72.41-76.008c10.806-10.914 16.585-25.972 15.855-41.313s-7.913-29.782-19.706-39.62l-87.188-72.733c-5.407-4.51-13.297-4.694-18.944-.225-4.672 3.698-6.546 9.929-5.135 15.718l16.574 67.983-74.145 23.408v171.952h53.591z" fill="#2698d1"/><path d="m350.281 337.388-148.048-109.676-18.93 18.874.004.004c1.365 1.321 2.685 2.661 3.974 4.015.457.479.912.959 1.36 1.442.446.483.89.966 1.326 1.453.651.724 1.289 1.454 1.919 2.188.722.841 1.422 1.692 2.116 2.545.49.601.992 1.197 1.467 1.803l131.492 102.943c10.916-4.843 19.466-14.11 23.32-25.591z" fill="#1a82c7"/><path d="m255.998 307.424 70.963 55.556c10.916-4.843 19.466-14.11 23.32-25.591l-94.283-69.846z" fill="#004373"/><path d="m255.998 194.707-17.428-3.153-15.727 15.609c.763.926 1.637 1.784 2.646 2.531l136.983 101.299 20.853-21.889z" fill="#1a82c7"/><path d="m362.473 310.992 20.853-21.889-127.328-94.396v37.547z" fill="#004373"/><path d="m82.287 163.276c-20.391-5.04-34.537-6.682-35.62-6.803-8.278-.93-15.787 5.08-16.602 13.48-.754 7.775 4.834 14.759 12.505 16.234l32.903 6.327c16.41 4.074 37.258 10.546 58.031 20.525 25.393 12.199 45.237 26.884 59.484 43.947l63.01-62.28z" fill="#ffc12e"/></svg>
+                    <h2 class="price_box-title">Basic</h2>
+                    <ul class="price_box-description">
+                        <li class="basic" >Free Service for 1 month only</li>
+                        <li class="basic item" >Graphic design not provided</li>
+                        <li class="basic item" >Digital marketing not covered</li>
+                    </ul>
+                        <a href="#" class="price_box-link">learn more</a>
+                </div>
+                <!-- pro plan box -->
+                <div class="price_box">
+                    <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m365.409 228.626s-44.397-73.84-120.242-73.84c-32.532 0-56.263 0-56.263 0h-29.704c-54.207 0-104.598 27.898-133.371 73.838l-.001.002z" fill="#72c5fc"/><path d="m256 228.626h109.409s-40.188-66.832-109.409-73.329z" fill="#2698d1"/><path d="m506.137 260.902c-8.107-16.379-23.917-28.491-42.942-31.176l-88.871-14.821c-13.144-18.874-58.263-75.119-129.155-75.119h-85.969c-29.132 0-58.002 7.458-83.488 21.568-25.417 14.072-47.013 34.507-62.468 59.106l-7.447 11.103.005.003c-3.671 5.858-5.802 12.775-5.802 20.183v73.862c0 8.284 6.716 15 15 15h482c8.284 0 15-6.716 15-15v-34.709l-13.477-13.375zm-346.91-47.276h-102.754c9.867-10.283 21.251-19.094 33.77-26.025 21.051-11.654 44.896-17.814 68.957-17.814h.026v43.839zm30 0v-43.839h55.941c40.4 0 71.335 24.55 89.406 43.839z" fill="#ff674f"/><path d="m506.137 260.902c-8.107-16.379-23.917-28.491-42.942-31.176l-88.871-14.821c-12.462-17.894-53.667-69.369-118.323-74.669v30.146c35.112 3.85 62.155 25.715 78.574 43.243h-78.575v126.985h241c8.284 0 15-6.716 15-15v-34.709l-13.477-13.375z" fill="#d9260f"/><ellipse cx="387.448" cy="323.306" fill="#b0ac9b" rx="34.229" ry="33.908"/><path d="m387.448 372.214c-27.146 0-49.229-21.94-49.229-48.908s22.084-48.908 49.229-48.908 49.229 21.94 49.229 48.908-22.084 48.908-49.229 48.908zm0-67.816c-10.604 0-19.229 8.482-19.229 18.908s8.626 18.908 19.229 18.908 19.229-8.482 19.229-18.908-8.626-18.908-19.229-18.908z" fill="#181b1f"/><ellipse cx="99.077" cy="323.306" fill="#b0ac9b" rx="34.229" ry="33.908"/><path d="m99.076 372.214c-27.145 0-49.229-21.94-49.229-48.908s22.084-48.908 49.229-48.908c27.146 0 49.229 21.94 49.229 48.908.001 26.968-22.083 48.908-49.229 48.908zm0-67.816c-10.603 0-19.229 8.482-19.229 18.908s8.626 18.908 19.229 18.908c10.604 0 19.229-8.482 19.229-18.908.001-10.426-8.625-18.908-19.229-18.908z" fill="#4c4a40"/><path d="m465.258 275.902c0 8.284 6.716 15 15 15h31.742v-5c0-8.909-2.107-17.411-5.863-25h-25.879c-8.284 0-15 6.716-15 15z" fill="#ffcf2c"/><path d="m241 290.902h-22.842c-8.284 0-15-6.716-15-15s6.716-15 15-15h22.842c8.284 0 15 6.716 15 15s-6.716 15-15 15z" fill="#4c4a40"/></svg>
+                    <h2 class="price_box-title">Pro</h2>
+                    <ul class="price_box-description">
+                        <li class="basic" >Free service for 2 month only</li>
+                        <li class="basic" >Graphic designing provided</li>
+                        <li class="basic item" >Digital marketing not covered</li>
+                    </ul>
+                        <a href="#" class="price_box-link">learn more</a>
+                </div>
+                <!-- Enterprice plan box -->
+                <div class="price_box">
+                    <svg enable-background="new 0 0 511.999 511.999" height="512" viewBox="0 0 511.999 511.999" width="512" xmlns="http://www.w3.org/2000/svg"><ellipse cx="90.081" cy="353.661" fill="#2698d1" rx="34.999" ry="35" transform="matrix(1 -.019 .019 1 -6.781 1.797)"/><ellipse cx="332.007" cy="353.661" fill="#176cad" rx="34.999" ry="35" transform="matrix(1 -.018 .018 1 -6.259 5.982)"/><path d="m241.002 403.66h30v70.016h-30z" fill="#878477"/><path d="m255.997 403.66h15.005v70.016h-15.005z" fill="#696453"/><path d="m52.121 403.66h30v70.016h-30z" fill="#878477"/><path d="m429.883 403.66h30v70.016h-30z" fill="#696453"/><path d="m496.999 488.66h-481.998c-8.284 0-15-6.716-15-15s6.716-15 15-15h481.998c8.284 0 15 6.716 15 15s-6.716 15-15 15z" fill="#a19d8d"/><path d="m496.999 458.659h-241.002v30h241.002c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#878477"/><path d="m496.999 418.66h-481.998c-8.284 0-15-6.716-15-15s6.716-15 15-15h481.998c8.284 0 15 6.716 15 15s-6.716 15-15 15z" fill="#c4c0ad"/><path d="m496.999 388.66h-241.002v30h241.002c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#a19d8d"/><path d="m422.85 348.772h-422.84v-265.433h265.519c40.569 0 79.54 12.357 112.697 35.736l95.994 67.684c23.655 16.679 37.778 43.917 37.778 72.862.001 49.158-39.991 89.151-89.148 89.151z" fill="#d1f7ff"/><path d="m474.221 186.759-95.994-67.684c-33.157-23.379-72.128-35.736-112.697-35.736h-9.524v265.433h166.844c49.157 0 89.149-39.993 89.149-89.151 0-28.945-14.123-56.183-37.778-72.862z" fill="#a3efff"/><path d="m474.221 186.759-61.582-43.421h-141.634c-5.453 0-10.476 2.959-13.12 7.729-2.644 4.769-2.49 10.597.399 15.221l49.999 79.999c2.741 4.386 7.548 7.05 12.72 7.05h190.765c-1.883-26.565-15.613-51.112-37.547-66.578z" fill="#2698d1"/><g fill="#72c5fc"><path d="m93.335 238.337h33.333c5.523 0 10-4.477 10-10v-59.999c0-5.523-4.477-10-10-10h-33.333c-5.523 0-10 4.477-10 10v59.999c0 5.523 4.478 10 10 10z"/><path d="m180.003 158.338h-3.334c-5.523 0-10 4.477-10 10v59.999c0 5.523 4.477 10 10 10h3.334c22.091 0 40-17.908 40-40-.001-22.09-17.909-39.999-40-39.999z"/><path d="m43.335 158.338h-33.325c-5.523 0-10 4.477-10 10v59.999c0 5.523 4.477 10 10 10h33.325c5.523 0 10-4.477 10-10v-59.999c0-5.523-4.477-10-10-10z"/></g><path d="m73.341 53.339h-58.341c-8.284 0-15-6.716-15-15s6.716-15 15-15h58.341c8.284 0 15 6.716 15 15 0 8.285-6.715 15-15 15z" fill="#a3efff"/></svg>
+                    <h2 class="price_box-title">Enterprice</h2>
+                    <ul class="price_box-description">
+                        <li class="basic" >Free service for 6 month only</li>
+                        <li class="basic" >Graphic designing included</li>
+                        <li class="basic" >Digital marketing included</li>
+                    </ul>
+                        <a href="#" class="price_box-link">learn more</a>
+                </div>
+
+                
+            </div> 
+        </section> 
+
+        <!-- contact us section -->
+        <section class="contact-section" id="contact">
+            <!-- <h2><strong>Leave</strong> a message</h2> -->
+            <h2>  <strong>Leave</strong> <span> &#160</span> a message</h2>
+
+            <form action="#" class="contact_form" id="form">
+                <label for="name">name</label>
+                <input type="text" placeholder="Name" id="name" name="name">
+                <label for="email" >Email</label>
+                <input type="email" placeholder="Email" id="email" name="email">
+                <label for="message">message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message"></textarea>
+                <a href="https://www.freecodecamp.com/email-submit" id="submit_link"><input type="submit" id="submit" ></a>
+                <!-- <input type="send message" id="submit"><a href="https://www.freecodecamp.com/email-submit">Send message</a></input> -->
+            </form>
+        </section>
+
+    
+     
+    
+
+     
+
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+</body>
+</html>
